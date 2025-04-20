@@ -56,7 +56,7 @@ pip install fpdf
 
 ✅ Opção 2 — Rodar pelo terminal manualmente:
 ```bash
-python interface_grafica.py
+python main.py
 ```
 
 ---
@@ -80,8 +80,9 @@ Isso garante compatibilidade entre os membros do grupo e previne erros.
 ## ✉️ Contato e Autoria
 Desenvolvido por alunos da **UNIVESP** para o Projeto Integrador.
 
-> Orientador: Prof. Nome do Orientador  
-> Integrantes: Nome 1, Nome 2, Nome 3...
+> Orientadora: Profa. Daniela  
+> Grupo: DRP05-PJI110-SALA-002GRUPO-010  
+> Cidade: Araçoiaba/SP
 
 ---
 
@@ -95,3 +96,7 @@ Desenvolvido por alunos da **UNIVESP** para o Projeto Integrador.
 ---
 
 🚀 Projeto em constante evolução, Grupo!!! Que a Força esteja com vocês! 💪
+
+---
+
+**PALAVRAS-CHAVE:** Transporte Escolar; Tkinter; SQLite; Sistema de Cadastro; PDF.
