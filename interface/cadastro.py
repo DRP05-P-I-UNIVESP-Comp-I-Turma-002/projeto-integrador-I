@@ -2,6 +2,7 @@ import tkinter as tk
 from tkinter import messagebox, filedialog
 from database.conexao import conectar
 
+#criação da função cadstrar
 def cadastrar_aluno():
     def selecionar_foto():
         caminho = filedialog.askopenfilename(
@@ -41,12 +42,12 @@ def cadastrar_aluno():
         finally:
             conexao.close()
 
-    # Criação da interface de cadastro
+    # Criação da interface de cadastro não meudei nada
     janela_cadastro = tk.Toplevel()
     janela_cadastro.title("Cadastrar Aluno")
     janela_cadastro.geometry("350x450")
 
-    # Campos
+    # Campos de preeenchimento
     tk.Label(janela_cadastro, text="Nome:").pack()
     entry_nome = tk.Entry(janela_cadastro, width=40)
     entry_nome.pack()

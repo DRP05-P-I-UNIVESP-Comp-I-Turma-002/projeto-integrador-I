@@ -15,7 +15,7 @@ def gerar_relatorio():
     pdf.set_auto_page_break(auto=True, margin=15)
     pdf.add_page()
     
-    # Título principal
+    # Título principal foi alterado para letra arial com BOld
     pdf.set_font("Arial", style='B', size=16)
     pdf.cell(200, 10, "Relatório de Transporte Escolar", ln=True, align='C')
     pdf.ln(10)

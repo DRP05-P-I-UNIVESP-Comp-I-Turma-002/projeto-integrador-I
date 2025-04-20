@@ -6,7 +6,7 @@ from interface.pesquisa import pesquisar_aluno
 from relatorios.gerar_relatorio import gerar_relatorio
 from carteirinha.gerar_carteirinha import gerar_carteirinhas
 
-janela = None  # Tornar visível para os outros módulos, se necessário
+janela = None  # Tornar visível para os outros módulos, se necessário. Podem ver que ela é declarada no escopo global do módulo. E ela cria janela primcipal na biblioteca Tkinter.
 
 def iniciar_interface():
     global janela
